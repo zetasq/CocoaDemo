@@ -12,13 +12,13 @@
 		D42912471F4D830300D6ABCF /* AppMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42912461F4D830300D6ABCF /* AppMenu.swift */; };
 		D461CA661F4D8592009F69F5 /* ContextfreeMenuActionDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D461CA651F4D8592009F69F5 /* ContextfreeMenuActionDispatcher.swift */; };
 		D461CA681F4D86FD009F69F5 /* AppDelegate+ContextFreeMenuActionDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D461CA671F4D86FD009F69F5 /* AppDelegate+ContextFreeMenuActionDispatcher.swift */; };
+		D4B4B7281F4DA47D00D59A5D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B4B7271F4DA47D00D59A5D /* main.swift */; };
 		D4C33A6B1F4D6F350073AA8E /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4C33A691F4D6F350073AA8E /* SnapKit.framework */; };
 		D4C33A6C1F4D6F350073AA8E /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D4C33A691F4D6F350073AA8E /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D4C33A6D1F4D6F350073AA8E /* MenuBuilder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4C33A6A1F4D6F350073AA8E /* MenuBuilder.framework */; };
 		D4C33A6E1F4D6F350073AA8E /* MenuBuilder.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D4C33A6A1F4D6F350073AA8E /* MenuBuilder.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D4D9F6D21F4D6B8C004B9DF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D9F6D11F4D6B8C004B9DF9 /* AppDelegate.swift */; };
 		D4D9F6D41F4D6B8C004B9DF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4D9F6D31F4D6B8C004B9DF9 /* Assets.xcassets */; };
-		D4D9F6D71F4D6B8C004B9DF9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4D9F6D51F4D6B8C004B9DF9 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,6 +42,7 @@
 		D42912461F4D830300D6ABCF /* AppMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMenu.swift; sourceTree = "<group>"; };
 		D461CA651F4D8592009F69F5 /* ContextfreeMenuActionDispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextfreeMenuActionDispatcher.swift; sourceTree = "<group>"; };
 		D461CA671F4D86FD009F69F5 /* AppDelegate+ContextFreeMenuActionDispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+ContextFreeMenuActionDispatcher.swift"; sourceTree = "<group>"; };
+		D4B4B7271F4DA47D00D59A5D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D4C33A691F4D6F350073AA8E /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/Mac/SnapKit.framework; sourceTree = "<group>"; };
 		D4C33A6A1F4D6F350073AA8E /* MenuBuilder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MenuBuilder.framework; path = Carthage/Build/Mac/MenuBuilder.framework; sourceTree = "<group>"; };
 		D4D9F6CE1F4D6B8B004B9DF9 /* CocoaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,6 +100,7 @@
 			children = (
 				D42912451F4D82BE00D6ABCF /* Menu */,
 				D4D9F6D11F4D6B8C004B9DF9 /* AppDelegate.swift */,
+				D4B4B7271F4DA47D00D59A5D /* main.swift */,
 				D42912411F4D811000D6ABCF /* Bundle+Util.swift */,
 				D4D9F6D31F4D6B8C004B9DF9 /* Assets.xcassets */,
 				D4D9F6D51F4D6B8C004B9DF9 /* MainMenu.xib */,
@@ -168,7 +170,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4D9F6D41F4D6B8C004B9DF9 /* Assets.xcassets in Resources */,
-				D4D9F6D71F4D6B8C004B9DF9 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D461CA681F4D86FD009F69F5 /* AppDelegate+ContextFreeMenuActionDispatcher.swift in Sources */,
+				D4B4B7281F4DA47D00D59A5D /* main.swift in Sources */,
 				D42912441F4D82B700D6ABCF /* AppMenu+MainMenu.swift in Sources */,
 				D4D9F6D21F4D6B8C004B9DF9 /* AppDelegate.swift in Sources */,
 				D461CA661F4D8592009F69F5 /* ContextfreeMenuActionDispatcher.swift in Sources */,

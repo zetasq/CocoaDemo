@@ -1,8 +1,8 @@
 {
-  "commitish" : "v1.0.0",
+  "commitish" : "v1.0.1",
   "Mac" : [
     {
-      "hash" : "1edb74722b29420f0d7bcc2fcad4cde435153e356f0cf69ab09c3e8825c43ce4",
+      "hash" : "d2da23188e07c4f76a1f2a30f0f67df94dd4a09ff5e92cfe51f23e2430085574",
       "name" : "MenuBuilder"
     }
   ]

@@ -9,5 +9,10 @@
 import Foundation
 
 final class AppMenu {
-    private init() {}
+  private init() {}
+  
+  static func removeAdditionalMenus() {
+    UserDefaults.standard.set(true, forKey: "NSDisabledDictationMenuItem")
+    UserDefaults.standard.set(true, forKey: "NSDisabledCharacterPaletteMenuItem")
+  }
 }

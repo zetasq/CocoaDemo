@@ -9,16 +9,14 @@
 import Cocoa
 import MenuBuilder
 
-@NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
-    
-    weak var window: NSWindow!
-
-    func applicationDidFinishLaunching(_ aNotification: Notification) {
-        NSApplication.shared.mainMenu = AppMenu.main
-        let a = NSApplication.shared.mainMenu!
-        print("DD")
-    }
-
+  
+  weak var window: NSWindow!
+  
+  func applicationDidFinishLaunching(_ aNotification: Notification) {
+    AppMenu.removeAdditionalMenus()
+    NSApplication.shared.mainMenu = AppMenu.main
+  }
+  
 }
 
