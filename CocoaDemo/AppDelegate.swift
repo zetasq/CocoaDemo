@@ -7,21 +7,18 @@
 //
 
 import Cocoa
+import MenuBuilder
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
-
-    @IBOutlet weak var window: NSWindow!
-
+    
+    weak var window: NSWindow!
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
+        NSApplication.shared.mainMenu = AppMenu.main
+        let a = NSApplication.shared.mainMenu!
+        print("DD")
     }
-
-    func applicationWillTerminate(_ aNotification: Notification) {
-        // Insert code here to tear down your application
-    }
-
 
 }
 

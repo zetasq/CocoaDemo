@@ -1,0 +1,11 @@
+framework module MenuBuilder {
+  umbrella header "MenuBuilder.h"
+
+  export *
+  module * { export * }
+}
+
+module MenuBuilder.Swift {
+    header "MenuBuilder-Swift.h"
+    requires objc
+}

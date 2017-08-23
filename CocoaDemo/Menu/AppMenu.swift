@@ -1,0 +1,13 @@
+//
+//  AppMenu.swift
+//  CocoaDemo
+//
+//  Created by Zhu Shengqi on 23/08/2017.
+//  Copyright © 2017 zetasq. All rights reserved.
+//
+
+import Foundation
+
+final class AppMenu {
+    private init() {}
+}

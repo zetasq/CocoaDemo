@@ -7,12 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D42912421F4D811000D6ABCF /* Bundle+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42912411F4D811000D6ABCF /* Bundle+Util.swift */; };
+		D42912441F4D82B700D6ABCF /* AppMenu+MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42912431F4D82B700D6ABCF /* AppMenu+MainMenu.swift */; };
+		D42912471F4D830300D6ABCF /* AppMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42912461F4D830300D6ABCF /* AppMenu.swift */; };
+		D461CA661F4D8592009F69F5 /* ContextfreeMenuActionDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D461CA651F4D8592009F69F5 /* ContextfreeMenuActionDispatcher.swift */; };
+		D461CA681F4D86FD009F69F5 /* AppDelegate+ContextFreeMenuActionDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D461CA671F4D86FD009F69F5 /* AppDelegate+ContextFreeMenuActionDispatcher.swift */; };
+		D4C33A6B1F4D6F350073AA8E /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4C33A691F4D6F350073AA8E /* SnapKit.framework */; };
+		D4C33A6C1F4D6F350073AA8E /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D4C33A691F4D6F350073AA8E /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D4C33A6D1F4D6F350073AA8E /* MenuBuilder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4C33A6A1F4D6F350073AA8E /* MenuBuilder.framework */; };
+		D4C33A6E1F4D6F350073AA8E /* MenuBuilder.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D4C33A6A1F4D6F350073AA8E /* MenuBuilder.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D4D9F6D21F4D6B8C004B9DF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D9F6D11F4D6B8C004B9DF9 /* AppDelegate.swift */; };
 		D4D9F6D41F4D6B8C004B9DF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4D9F6D31F4D6B8C004B9DF9 /* Assets.xcassets */; };
 		D4D9F6D71F4D6B8C004B9DF9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4D9F6D51F4D6B8C004B9DF9 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D4D9F6E51F4D6E91004B9DF9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D4C33A6C1F4D6F350073AA8E /* SnapKit.framework in Embed Frameworks */,
+				D4C33A6E1F4D6F350073AA8E /* MenuBuilder.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		D42912411F4D811000D6ABCF /* Bundle+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Util.swift"; sourceTree = "<group>"; };
+		D42912431F4D82B700D6ABCF /* AppMenu+MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppMenu+MainMenu.swift"; sourceTree = "<group>"; };
+		D42912461F4D830300D6ABCF /* AppMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMenu.swift; sourceTree = "<group>"; };
+		D461CA651F4D8592009F69F5 /* ContextfreeMenuActionDispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextfreeMenuActionDispatcher.swift; sourceTree = "<group>"; };
+		D461CA671F4D86FD009F69F5 /* AppDelegate+ContextFreeMenuActionDispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+ContextFreeMenuActionDispatcher.swift"; sourceTree = "<group>"; };
+		D4C33A691F4D6F350073AA8E /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/Mac/SnapKit.framework; sourceTree = "<group>"; };
+		D4C33A6A1F4D6F350073AA8E /* MenuBuilder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MenuBuilder.framework; path = Carthage/Build/Mac/MenuBuilder.framework; sourceTree = "<group>"; };
 		D4D9F6CE1F4D6B8B004B9DF9 /* CocoaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4D9F6D11F4D6B8C004B9DF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4D9F6D31F4D6B8C004B9DF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -26,15 +57,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4C33A6B1F4D6F350073AA8E /* SnapKit.framework in Frameworks */,
+				D4C33A6D1F4D6F350073AA8E /* MenuBuilder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D42912451F4D82BE00D6ABCF /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				D42912461F4D830300D6ABCF /* AppMenu.swift */,
+				D42912431F4D82B700D6ABCF /* AppMenu+MainMenu.swift */,
+				D461CA651F4D8592009F69F5 /* ContextfreeMenuActionDispatcher.swift */,
+				D461CA671F4D86FD009F69F5 /* AppDelegate+ContextFreeMenuActionDispatcher.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
 		D4D9F6C51F4D6B8B004B9DF9 = {
 			isa = PBXGroup;
 			children = (
+				D4C33A6A1F4D6F350073AA8E /* MenuBuilder.framework */,
+				D4C33A691F4D6F350073AA8E /* SnapKit.framework */,
 				D4D9F6D01F4D6B8B004B9DF9 /* CocoaDemo */,
 				D4D9F6CF1F4D6B8B004B9DF9 /* Products */,
 			);
@@ -51,7 +97,9 @@
 		D4D9F6D01F4D6B8B004B9DF9 /* CocoaDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D42912451F4D82BE00D6ABCF /* Menu */,
 				D4D9F6D11F4D6B8C004B9DF9 /* AppDelegate.swift */,
+				D42912411F4D811000D6ABCF /* Bundle+Util.swift */,
 				D4D9F6D31F4D6B8C004B9DF9 /* Assets.xcassets */,
 				D4D9F6D51F4D6B8C004B9DF9 /* MainMenu.xib */,
 				D4D9F6D81F4D6B8C004B9DF9 /* Info.plist */,
@@ -70,6 +118,7 @@
 				D4D9F6CA1F4D6B8B004B9DF9 /* Sources */,
 				D4D9F6CB1F4D6B8B004B9DF9 /* Frameworks */,
 				D4D9F6CC1F4D6B8B004B9DF9 /* Resources */,
+				D4D9F6E51F4D6E91004B9DF9 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,7 +179,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D461CA681F4D86FD009F69F5 /* AppDelegate+ContextFreeMenuActionDispatcher.swift in Sources */,
+				D42912441F4D82B700D6ABCF /* AppMenu+MainMenu.swift in Sources */,
 				D4D9F6D21F4D6B8C004B9DF9 /* AppDelegate.swift in Sources */,
+				D461CA661F4D8592009F69F5 /* ContextfreeMenuActionDispatcher.swift in Sources */,
+				D42912471F4D830300D6ABCF /* AppMenu.swift in Sources */,
+				D42912421F4D811000D6ABCF /* Bundle+Util.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +315,10 @@
 				CODE_SIGN_ENTITLEMENTS = CocoaDemo/CocoaDemo.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = DHNJ8N28ZZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = CocoaDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zetasq.CocoaDemo;
@@ -276,6 +334,10 @@
 				CODE_SIGN_ENTITLEMENTS = CocoaDemo/CocoaDemo.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = DHNJ8N28ZZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = CocoaDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zetasq.CocoaDemo;
