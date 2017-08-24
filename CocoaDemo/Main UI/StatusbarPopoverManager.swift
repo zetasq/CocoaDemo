@@ -21,10 +21,18 @@ final class StatusbarPopoverManager {
   
   func togglePopover(_ sender: Any?) {
     if popover.isShown {
-      popover.performClose(sender)
+      hidePopover(sender)
     } else {
-      let button = StatusItemManager.shared.defaultItem.button!
-      popover.show(relativeTo: button.bounds, of: button, preferredEdge: .minY)
+      showPopover()
     }
+  }
+  
+  func showPopover() {
+    let button = StatusItemManager.shared.defaultItem.button!
+    popover.show(relativeTo: button.bounds, of: button, preferredEdge: .minY)
+  }
+  
+  func hidePopover(_ sender: Any?) {
+    popover.performClose(sender)
   }
 }

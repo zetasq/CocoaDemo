@@ -12,13 +12,23 @@ import MenuBuilder
 final class AppDelegate: NSObject, NSApplicationDelegate {
   
   weak var window: NSWindow!
-
+  
+  private var eventMonitor: EventMonitor!
+  
   func applicationDidFinishLaunching(_ aNotification: Notification) {
     
     AppMenu.removeAdditionalMenus()
     NSApplication.shared.mainMenu = AppMenu.main
     
     StatusItemManager.shared.setupStatusItems()
+    
+    eventMonitor = EventMonitor(mask: [.leftMouseDown, .rightMouseDown], handler: { event in
+      StatusbarPopoverManager.shared.hidePopover(nil)
+      print(event)
+    })
+    
+    eventMonitor.start()
+    eventMonitor.start()
   }
   
   @objc
