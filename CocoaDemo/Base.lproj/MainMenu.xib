@@ -697,15 +697,15 @@
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <customView misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TDH-HI-tCQ">
-                        <rect key="frame" x="149" y="167" width="156" height="129"/>
+                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="TDH-HI-tCQ">
+                        <rect key="frame" x="115" y="200" width="156" height="129"/>
                     </customView>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="TDH-HI-tCQ" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" constant="159" id="ElM-Ir-x8s"/>
-                    <constraint firstAttribute="bottom" secondItem="TDH-HI-tCQ" secondAttribute="bottom" constant="124" id="Eor-yq-HgN"/>
-                    <constraint firstItem="TDH-HI-tCQ" firstAttribute="top" secondItem="EiT-Mj-1SZ" secondAttribute="top" constant="96" id="ah6-XQ-cds"/>
-                    <constraint firstAttribute="trailing" secondItem="TDH-HI-tCQ" secondAttribute="trailing" constant="165" id="wQi-2b-h9A"/>
+                    <constraint firstItem="TDH-HI-tCQ" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" constant="115" id="H6c-Dt-X3d"/>
+                    <constraint firstItem="TDH-HI-tCQ" firstAttribute="top" secondItem="EiT-Mj-1SZ" secondAttribute="top" constant="20" symbolic="YES" id="JYS-Ia-qUn"/>
+                    <constraint firstAttribute="trailing" secondItem="TDH-HI-tCQ" secondAttribute="trailing" constant="209" id="fvY-Mr-xgL"/>
+                    <constraint firstAttribute="bottom" secondItem="TDH-HI-tCQ" secondAttribute="bottom" constant="200" id="nnW-fO-tP4"/>
                 </constraints>
             </view>
             <point key="canvasLocation" x="49" y="568"/>

@@ -10,8 +10,9 @@ import Cocoa
 import SnapKit
 final class MainWindow: NSWindow {
   init() {
-    super.init(contentRect: NSRect(origin: .zero, size: CGSize(width: 800, height: 600)), styleMask: [.fullSizeContentView, .resizable, .miniaturizable, .titled, .closable], backing: .buffered, defer: true)
+    super.init(contentRect: NSRect(origin: .zero, size: CGSize(width: 800, height: 600)), styleMask: [.resizable, .miniaturizable, .titled, .closable], backing: .buffered, defer: true)
     
+    titlebarAppearsTransparent = true
     minSize = CGSize(width: 800, height: 600)
     isMovableByWindowBackground = true
 
