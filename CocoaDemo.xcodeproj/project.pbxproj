@@ -27,6 +27,9 @@
 		D4CA1F0D1F4EBDFD0041E45A /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CA1F0C1F4EBDFD0041E45A /* Quote.swift */; };
 		D4D9F6D21F4D6B8C004B9DF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D9F6D11F4D6B8C004B9DF9 /* AppDelegate.swift */; };
 		D4D9F6D41F4D6B8C004B9DF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4D9F6D31F4D6B8C004B9DF9 /* Assets.xcassets */; };
+		D4FF23B31F4F0F9F00D4EAED /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FF23B21F4F0F9F00D4EAED /* MainWindowController.swift */; };
+		D4FF23B51F4F19A300D4EAED /* MainWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FF23B41F4F19A300D4EAED /* MainWindow.swift */; };
+		D4FF23B71F4F259000D4EAED /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FF23B61F4F259000D4EAED /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -67,6 +70,9 @@
 		D4D9F6D61F4D6B8C004B9DF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		D4D9F6D81F4D6B8C004B9DF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4D9F6D91F4D6B8C004B9DF9 /* CocoaDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CocoaDemo.entitlements; sourceTree = "<group>"; };
+		D4FF23B21F4F0F9F00D4EAED /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		D4FF23B41F4F19A300D4EAED /* MainWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindow.swift; sourceTree = "<group>"; };
+		D4FF23B61F4F259000D4EAED /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,9 @@
 			isa = PBXGroup;
 			children = (
 				D47285891F4EB80200F14238 /* QuotesViewController.swift */,
+				D4FF23B21F4F0F9F00D4EAED /* MainWindowController.swift */,
+				D4FF23B41F4F19A300D4EAED /* MainWindow.swift */,
+				D4FF23B61F4F259000D4EAED /* MainViewController.swift */,
 			);
 			path = "Main UI";
 			sourceTree = "<group>";
@@ -242,6 +251,7 @@
 				D4CA1F0A1F4EBA350041E45A /* StatusbarPopoverManager.swift in Sources */,
 				D42912441F4D82B700D6ABCF /* AppMenu+MainMenu.swift in Sources */,
 				D4CA1F0D1F4EBDFD0041E45A /* Quote.swift in Sources */,
+				D4FF23B31F4F0F9F00D4EAED /* MainWindowController.swift in Sources */,
 				D47252C91F4EDA8100763F90 /* EventMonitor.swift in Sources */,
 				D47252C71F4ED4D000763F90 /* NSLayoutConstraintPriority+Arith.swift in Sources */,
 				D496CEBD1F4EB00200620653 /* StatusItemManager.swift in Sources */,
@@ -249,6 +259,8 @@
 				D4D9F6D21F4D6B8C004B9DF9 /* AppDelegate.swift in Sources */,
 				D461CA661F4D8592009F69F5 /* AppNameMenuActionDispatcher.swift in Sources */,
 				D42912471F4D830300D6ABCF /* AppMenu.swift in Sources */,
+				D4FF23B51F4F19A300D4EAED /* MainWindow.swift in Sources */,
+				D4FF23B71F4F259000D4EAED /* MainViewController.swift in Sources */,
 				D42912421F4D811000D6ABCF /* Bundle+Util.swift in Sources */,
 				D496CEBA1F4EA72700620653 /* NSStatusItem+Util.swift in Sources */,
 			);

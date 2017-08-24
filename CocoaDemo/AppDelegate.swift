@@ -10,8 +10,7 @@ import Cocoa
 import MenuBuilder
 
 final class AppDelegate: NSObject, NSApplicationDelegate {
-  
-  weak var window: NSWindow!
+  private var windowController: NSWindowController!
   
   private var eventMonitor: EventMonitor!
   
@@ -24,11 +23,12 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
     
     eventMonitor = EventMonitor(mask: [.leftMouseDown, .rightMouseDown], handler: { event in
       StatusbarPopoverManager.shared.hidePopover(nil)
-      print(event)
     })
     
     eventMonitor.start()
-    eventMonitor.start()
+    
+    windowController = MainWindowController()
+    windowController.showWindow(nil)
   }
   
   @objc

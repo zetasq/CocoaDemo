@@ -680,17 +680,14 @@
             </items>
         </menu>
         <window title="CocoaDemo" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
-            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES" fullSizeContentView="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="335" y="390" width="480" height="349"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1057"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1418"/>
             <view key="contentView" wantsLayer="YES" id="EiT-Mj-1SZ">
                 <rect key="frame" x="0.0" y="0.0" width="480" height="349"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="TDH-HI-tCQ">
-                        <rect key="frame" x="159" y="124" width="156" height="129"/>
-                    </customView>
                     <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wNC-HH-b6z">
                         <rect key="frame" x="293" y="94" width="96" height="22"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
@@ -700,6 +697,9 @@
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
+                    <customView misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TDH-HI-tCQ">
+                        <rect key="frame" x="149" y="167" width="156" height="129"/>
+                    </customView>
                 </subviews>
                 <constraints>
                     <constraint firstItem="TDH-HI-tCQ" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" constant="159" id="ElM-Ir-x8s"/>
@@ -708,7 +708,7 @@
                     <constraint firstAttribute="trailing" secondItem="TDH-HI-tCQ" secondAttribute="trailing" constant="165" id="wQi-2b-h9A"/>
                 </constraints>
             </view>
-            <point key="canvasLocation" x="153" y="584.5"/>
+            <point key="canvasLocation" x="49" y="568"/>
         </window>
     </objects>
 </document>
