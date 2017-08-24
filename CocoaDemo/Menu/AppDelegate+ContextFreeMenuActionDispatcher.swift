@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension AppDelegate: ContextfreeMenuActionDispatcher {
+extension AppDelegate: AppNameMenuActionDispatcher {
     func showPreferencesWindow(_ sender: Any?) {
         print("\(#function)")
     }

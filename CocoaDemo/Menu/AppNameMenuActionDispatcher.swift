@@ -1,5 +1,5 @@
 //
-//  ContextfreeMenuActionDispatcher.swift
+//  AppNameMenuActionDispatcher.swift
 //  CocoaDemo
 //
 //  Created by Zhu Shengqi on 23/08/2017.
@@ -9,6 +9,6 @@
 import Foundation
 
 @objc
-protocol ContextfreeMenuActionDispatcher {
+protocol AppNameMenuActionDispatcher {
     func showPreferencesWindow(_ sender: Any?)
 }

@@ -18,7 +18,7 @@ extension AppMenu {
         
         context.addSeparator()
         
-        context.addItem(title: "Preferences…", action: #selector(ContextfreeMenuActionDispatcher.showPreferencesWindow(_:)), baseKey: ",", keyModifiers: [.command])
+        context.addItem(title: "Preferences…", action: #selector(AppNameMenuActionDispatcher.showPreferencesWindow(_:)), baseKey: ",", keyModifiers: [.command])
         
         context.addSeparator()
         
@@ -27,7 +27,7 @@ extension AppMenu {
         context.addItem(title: "Hide \(Bundle.main.name)", action: #selector(NSApplication.hide(_:)), baseKey: "h", keyModifiers: [.command])
         context.addItem(title: "Hide Others", action: #selector(NSApplication.hideOtherApplications(_:)), baseKey: "h", keyModifiers: [.option, .command])
         context.addItem(title: "Show All", action: #selector(NSApplication.unhideAllApplications(_:)))
-        context.addItem(title: "Quit Test", action: #selector(NSApplication.terminate(_:)), baseKey: "q", keyModifiers: .command)
+        context.addItem(title: "Quit \(Bundle.main.name)", action: #selector(NSApplication.terminate(_:)), baseKey: "q", keyModifiers: .command)
       }
       
       // MARK: - File Menu

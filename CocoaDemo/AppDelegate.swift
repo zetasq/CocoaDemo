@@ -9,14 +9,21 @@
 import Cocoa
 import MenuBuilder
 
-class AppDelegate: NSObject, NSApplicationDelegate {
+final class AppDelegate: NSObject, NSApplicationDelegate {
   
   weak var window: NSWindow!
-  
+
   func applicationDidFinishLaunching(_ aNotification: Notification) {
+    
     AppMenu.removeAdditionalMenus()
     NSApplication.shared.mainMenu = AppMenu.main
+    
+    StatusItemManager.shared.setupStatusItems()
   }
   
+  @objc
+  func togglePopover(_ sender: Any?) {
+    StatusbarPopoverManager.shared.togglePopover(sender)
+  }
 }
 

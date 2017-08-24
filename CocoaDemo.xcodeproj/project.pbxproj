@@ -10,13 +10,21 @@
 		D42912421F4D811000D6ABCF /* Bundle+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42912411F4D811000D6ABCF /* Bundle+Util.swift */; };
 		D42912441F4D82B700D6ABCF /* AppMenu+MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42912431F4D82B700D6ABCF /* AppMenu+MainMenu.swift */; };
 		D42912471F4D830300D6ABCF /* AppMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42912461F4D830300D6ABCF /* AppMenu.swift */; };
-		D461CA661F4D8592009F69F5 /* ContextfreeMenuActionDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D461CA651F4D8592009F69F5 /* ContextfreeMenuActionDispatcher.swift */; };
+		D461CA661F4D8592009F69F5 /* AppNameMenuActionDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D461CA651F4D8592009F69F5 /* AppNameMenuActionDispatcher.swift */; };
 		D461CA681F4D86FD009F69F5 /* AppDelegate+ContextFreeMenuActionDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D461CA671F4D86FD009F69F5 /* AppDelegate+ContextFreeMenuActionDispatcher.swift */; };
+		D47252C71F4ED4D000763F90 /* NSLayoutConstraintPriority+Arith.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47252C61F4ED4D000763F90 /* NSLayoutConstraintPriority+Arith.swift */; };
+		D47252C91F4EDA8100763F90 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47252C81F4EDA8100763F90 /* EventMonitor.swift */; };
+		D472858A1F4EB80200F14238 /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47285891F4EB80200F14238 /* QuotesViewController.swift */; };
+		D496CEBA1F4EA72700620653 /* NSStatusItem+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = D496CEB91F4EA72700620653 /* NSStatusItem+Util.swift */; };
+		D496CEBD1F4EB00200620653 /* StatusItemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D496CEBC1F4EB00200620653 /* StatusItemManager.swift */; };
+		D496CEBF1F4EB1E700620653 /* AppDelegate+StatusBarActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D496CEBE1F4EB1E700620653 /* AppDelegate+StatusBarActions.swift */; };
 		D4B4B7281F4DA47D00D59A5D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B4B7271F4DA47D00D59A5D /* main.swift */; };
 		D4C33A6B1F4D6F350073AA8E /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4C33A691F4D6F350073AA8E /* SnapKit.framework */; };
 		D4C33A6C1F4D6F350073AA8E /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D4C33A691F4D6F350073AA8E /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D4C33A6D1F4D6F350073AA8E /* MenuBuilder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4C33A6A1F4D6F350073AA8E /* MenuBuilder.framework */; };
 		D4C33A6E1F4D6F350073AA8E /* MenuBuilder.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D4C33A6A1F4D6F350073AA8E /* MenuBuilder.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D4CA1F0A1F4EBA350041E45A /* StatusbarPopoverManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CA1F091F4EBA350041E45A /* StatusbarPopoverManager.swift */; };
+		D4CA1F0D1F4EBDFD0041E45A /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CA1F0C1F4EBDFD0041E45A /* Quote.swift */; };
 		D4D9F6D21F4D6B8C004B9DF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D9F6D11F4D6B8C004B9DF9 /* AppDelegate.swift */; };
 		D4D9F6D41F4D6B8C004B9DF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4D9F6D31F4D6B8C004B9DF9 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -40,11 +48,19 @@
 		D42912411F4D811000D6ABCF /* Bundle+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Util.swift"; sourceTree = "<group>"; };
 		D42912431F4D82B700D6ABCF /* AppMenu+MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppMenu+MainMenu.swift"; sourceTree = "<group>"; };
 		D42912461F4D830300D6ABCF /* AppMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMenu.swift; sourceTree = "<group>"; };
-		D461CA651F4D8592009F69F5 /* ContextfreeMenuActionDispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextfreeMenuActionDispatcher.swift; sourceTree = "<group>"; };
+		D461CA651F4D8592009F69F5 /* AppNameMenuActionDispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNameMenuActionDispatcher.swift; sourceTree = "<group>"; };
 		D461CA671F4D86FD009F69F5 /* AppDelegate+ContextFreeMenuActionDispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+ContextFreeMenuActionDispatcher.swift"; sourceTree = "<group>"; };
+		D47252C61F4ED4D000763F90 /* NSLayoutConstraintPriority+Arith.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstraintPriority+Arith.swift"; sourceTree = "<group>"; };
+		D47252C81F4EDA8100763F90 /* EventMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
+		D47285891F4EB80200F14238 /* QuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
+		D496CEB91F4EA72700620653 /* NSStatusItem+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSStatusItem+Util.swift"; sourceTree = "<group>"; };
+		D496CEBC1F4EB00200620653 /* StatusItemManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusItemManager.swift; sourceTree = "<group>"; };
+		D496CEBE1F4EB1E700620653 /* AppDelegate+StatusBarActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+StatusBarActions.swift"; sourceTree = "<group>"; };
 		D4B4B7271F4DA47D00D59A5D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D4C33A691F4D6F350073AA8E /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/Mac/SnapKit.framework; sourceTree = "<group>"; };
 		D4C33A6A1F4D6F350073AA8E /* MenuBuilder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MenuBuilder.framework; path = Carthage/Build/Mac/MenuBuilder.framework; sourceTree = "<group>"; };
+		D4CA1F091F4EBA350041E45A /* StatusbarPopoverManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StatusbarPopoverManager.swift; path = "Main UI/StatusbarPopoverManager.swift"; sourceTree = "<group>"; };
+		D4CA1F0C1F4EBDFD0041E45A /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 		D4D9F6CE1F4D6B8B004B9DF9 /* CocoaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4D9F6D11F4D6B8C004B9DF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4D9F6D31F4D6B8C004B9DF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -71,10 +87,45 @@
 			children = (
 				D42912461F4D830300D6ABCF /* AppMenu.swift */,
 				D42912431F4D82B700D6ABCF /* AppMenu+MainMenu.swift */,
-				D461CA651F4D8592009F69F5 /* ContextfreeMenuActionDispatcher.swift */,
+				D461CA651F4D8592009F69F5 /* AppNameMenuActionDispatcher.swift */,
 				D461CA671F4D86FD009F69F5 /* AppDelegate+ContextFreeMenuActionDispatcher.swift */,
 			);
 			path = Menu;
+			sourceTree = "<group>";
+		};
+		D47285871F4EB73000F14238 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D42912411F4D811000D6ABCF /* Bundle+Util.swift */,
+				D496CEB91F4EA72700620653 /* NSStatusItem+Util.swift */,
+				D47252C61F4ED4D000763F90 /* NSLayoutConstraintPriority+Arith.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D47285881F4EB7E400F14238 /* Main UI */ = {
+			isa = PBXGroup;
+			children = (
+				D47285891F4EB80200F14238 /* QuotesViewController.swift */,
+			);
+			path = "Main UI";
+			sourceTree = "<group>";
+		};
+		D496CEBB1F4EAFEE00620653 /* StatusBar */ = {
+			isa = PBXGroup;
+			children = (
+				D496CEBC1F4EB00200620653 /* StatusItemManager.swift */,
+				D496CEBE1F4EB1E700620653 /* AppDelegate+StatusBarActions.swift */,
+			);
+			path = StatusBar;
+			sourceTree = "<group>";
+		};
+		D4CA1F0B1F4EBDE90041E45A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D4CA1F0C1F4EBDFD0041E45A /* Quote.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		D4D9F6C51F4D6B8B004B9DF9 = {
@@ -98,10 +149,15 @@
 		D4D9F6D01F4D6B8B004B9DF9 /* CocoaDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D4CA1F0B1F4EBDE90041E45A /* Model */,
+				D47285871F4EB73000F14238 /* Extensions */,
+				D496CEBB1F4EAFEE00620653 /* StatusBar */,
 				D42912451F4D82BE00D6ABCF /* Menu */,
+				D47285881F4EB7E400F14238 /* Main UI */,
 				D4D9F6D11F4D6B8C004B9DF9 /* AppDelegate.swift */,
+				D47252C81F4EDA8100763F90 /* EventMonitor.swift */,
+				D4CA1F091F4EBA350041E45A /* StatusbarPopoverManager.swift */,
 				D4B4B7271F4DA47D00D59A5D /* main.swift */,
-				D42912411F4D811000D6ABCF /* Bundle+Util.swift */,
 				D4D9F6D31F4D6B8C004B9DF9 /* Assets.xcassets */,
 				D4D9F6D51F4D6B8C004B9DF9 /* MainMenu.xib */,
 				D4D9F6D81F4D6B8C004B9DF9 /* Info.plist */,
@@ -180,13 +236,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D496CEBF1F4EB1E700620653 /* AppDelegate+StatusBarActions.swift in Sources */,
 				D461CA681F4D86FD009F69F5 /* AppDelegate+ContextFreeMenuActionDispatcher.swift in Sources */,
 				D4B4B7281F4DA47D00D59A5D /* main.swift in Sources */,
+				D4CA1F0A1F4EBA350041E45A /* StatusbarPopoverManager.swift in Sources */,
 				D42912441F4D82B700D6ABCF /* AppMenu+MainMenu.swift in Sources */,
+				D4CA1F0D1F4EBDFD0041E45A /* Quote.swift in Sources */,
+				D47252C91F4EDA8100763F90 /* EventMonitor.swift in Sources */,
+				D47252C71F4ED4D000763F90 /* NSLayoutConstraintPriority+Arith.swift in Sources */,
+				D496CEBD1F4EB00200620653 /* StatusItemManager.swift in Sources */,
+				D472858A1F4EB80200F14238 /* QuotesViewController.swift in Sources */,
 				D4D9F6D21F4D6B8C004B9DF9 /* AppDelegate.swift in Sources */,
-				D461CA661F4D8592009F69F5 /* ContextfreeMenuActionDispatcher.swift in Sources */,
+				D461CA661F4D8592009F69F5 /* AppNameMenuActionDispatcher.swift in Sources */,
 				D42912471F4D830300D6ABCF /* AppMenu.swift in Sources */,
 				D42912421F4D811000D6ABCF /* Bundle+Util.swift in Sources */,
+				D496CEBA1F4EA72700620653 /* NSStatusItem+Util.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
